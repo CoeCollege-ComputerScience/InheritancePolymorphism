@@ -13,4 +13,8 @@ public class Beagle extends Dog{
         System.out.println("Woof");
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + " is a Beagle";
+    }
 }

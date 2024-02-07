@@ -16,4 +16,9 @@ public class Labrador extends Dog{
     public void sit(){
         System.out.println("I am a good boi");
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + " is a labrador ";
+    }
 }
